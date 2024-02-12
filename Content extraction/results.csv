@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>International football results from 1872 to 2024 | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="An up-to-date dataset of over 40,000 international football results" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="sports,football,history,global,international relations" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1707754440025;
+    window["pageRequestEndTime"] = 1707754440111;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-3" />
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2", "async-google-font-3"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" src="https://www.google.com/recaptcha/enterprise.js?render=6LcW02cpAAAAAJlaJemsQQEwAiTEYB4aR6FYE_rD&waf=session" async defer></script>
+   <style>.grecaptcha-badge { visibility: hidden; }</style>
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=66bd3412594800e8bfeb" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=5ce84b0c951d07edead5" />
+  
+    
+ 
+      <script nonce="Ilj3j90xYW4G4uOtgttVUg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="Ilj3j90xYW4G4uOtgttVUg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="Ilj3j90xYW4G4uOtgttVUg==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017" />
+    <meta property="og:title" content="International football results from 1872 to 2024" />
+    <meta property="og:description" content="An up-to-date dataset of over 40,000 international football results" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/4305/6656/174b3eae6099dbc6ef1149ce22eb3e5f/dataset-card.jpg?t=2017-11-10-00-33-18" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+            <script nonce="Ilj3j90xYW4G4uOtgttVUg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"International football results from 1872 to 2024","description":"### Context\n\nWell, what happened was that I was looking for a semi-definite easy-to-read list of international football matches and couldn't find anything decent. So I took it upon myself to collect it for my own use. I might as well share it.\n\n### Content\n\nThis dataset includes **45,465** results of international football matches starting from the very first official match in 1872 up to 2024. The matches range from FIFA World Cup to FIFI Wild Cup to regular friendly matches. The matches are strictly men's full internationals and the data does not include Olympic Games or matches where at least one of the teams was the nation's B-team, U-23 or a league select team.\n\n`results.csv` includes the following columns:\n\n-   `date` - date of the match\n-   `home_team` - the name of the home team\n-   `away_team` - the name of the away team\n-   `home_score` - full-time home team score including extra time, not including penalty-shootouts\n-   `away_score` - full-time away team score including extra time, not including penalty-shootouts\n-   `tournament` - the name of the tournament\n-   `city` - the name of the city/town/administrative unit where the match was played\n-   `country` - the name of the country where the match was played\n-   `neutral` - TRUE/FALSE column indicating whether the match was played at a neutral venue\n\n`shootouts.csv` includes the following columns:\n\n-   `date` - date of the match\n-   `home_team` - the name of the home team\n-   `away_team` - the name of the away team\n-   `winner` - winner of the penalty-shootout\n-   `first_shooter` - the team that went first in the shootout\n\n`goalscorers.csv` includes the following columns:\n\n-   `date` - date of the match\n-   `home_team` - the name of the home team\n-   `away_team` - the name of the away team\n-   `team` - name of the team scoring the goal\n-   `scorer` - name of the player scoring the goal\n-   `own_goal` - whether the goal was an own-goal\n-   `penalty` - whether the goal was a penalty\n\nNote on team and country names: For home and away teams the *current* name of the team has been used. For example, when in 1882 a team who called themselves Ireland played against England, in this dataset, it is called Northern Ireland because the current team of Northern Ireland is the successor of the 1882 Ireland team. This is done so it is easier to track the history and statistics of teams.\n\nFor country names, the name of the country *at the time of the match* is used. So when Ghana played in Accra, Gold Coast in the 1950s, even though the names of the home team and the country don't match, it was a home match for Ghana. This is indicated by the neutral column, which says FALSE for those matches, meaning it was **not** at a neutral venue.\n\n### Acknowledgements\n\nThe data is gathered from several sources including but not limited to Wikipedia, rsssf.com, and individual football associations' websites.\n\n### Inspiration\n\nSome directions to take when exploring the data:\n\n-   Who is the best team of all time\n-   Which teams dominated different eras of football\n-   What trends have there been in international football throughout the ages - home advantage, total goals scored, distribution of teams' strength etc\n-   Can we say anything about geopolitics from football fixtures - how has the number of countries changed, which teams like to play each other\n-   Which countries host the most matches where they themselves are not participating in\n-   How much, if at all, does hosting a major tournament help a country's chances in the tournament\n-   Which teams are the most active in playing friendlies and friendly tournaments - does it help or hurt them\n\nThe world's your oyster, my friend.\n\n### Contribute\n\nIf you notice a mistake or the results are not updated fast enough for your liking, you can fix that by submitting a pull request on Github: https://github.com/martj42/international_results\n","url":"https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017","version":65,"keywords":["subject, health and fitness, exercise, sports","subject, health and fitness, exercise, sports, football","subject, people and society, social science, history","geography and places, global","subject, people and society, social science, international relations"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["4305"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Mart Jürisoo","url":"https://www.kaggle.com/martj42","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/820667-kg.JPG"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017/download?datasetVersionNumber=65","contentSize":"1150148 bytes"}],"commentCount":26,"dateModified":"2024-02-10T23:13:19.333Z","discussionUrl":"https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/discussion","alternateName":"An up-to-date dataset of over 40,000 international football results","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/4305/6656/174b3eae6099dbc6ef1149ce22eb3e5f/dataset-card.jpg?t=2017-11-10-00-33-18","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":26},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":84909},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":557937},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":1971}]}</script>
+        
+
+  
+    
+
+  
+    
+
+
+    <script nonce="Ilj3j90xYW4G4uOtgttVUg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="Ilj3j90xYW4G4uOtgttVUg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" src="/static/assets/runtime.js?v=68ba30f127043e584c32" data-turbolinks-track="reload"></script>
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" src="/static/assets/vendor.js?v=4104c7a62fb4b4e98f4f" data-turbolinks-track="reload"></script>
+  <script nonce="Ilj3j90xYW4G4uOtgttVUg==" src="/static/assets/app.js?v=0b0b9782b1e634cf4774" data-turbolinks-track="reload"></script>
+    <script nonce="Ilj3j90xYW4G4uOtgttVUg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+
+<script nonce="Ilj3j90xYW4G4uOtgttVUg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="Ilj3j90xYW4G4uOtgttVUg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
