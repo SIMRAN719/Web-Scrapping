@@ -14,9 +14,10 @@ This repository is aimed at scraping data from various websites using Python. We
 
 **3.[requests](https://docs.python-requests.org/en/latest/):** HTTP library for sending HTTP requests.
 
+**4. [Selenium](https://www.selenium.dev/):** Selenium is a web automation tool that allows you to control web browsers. It can be used for tasks like web scraping, automated testing, and web application interaction.
 
 ```
-    pip install requests beautifulsoup4
+    pip install requests beautifulsoup4 selenium
 ```
 
 ## Disclaimer
